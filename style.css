@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.page {
+    display: none;
+}
+
+/* Login Page Styles */
+#login-page {
+    display: block;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label {
+    margin-bottom: 8px;
+}
+
+#login-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Home Page Styles */
+#home-page {
+    display: none;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile {
+    padding: 8px 16px;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile:hover {
+    background-color: #004085;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.start-voting {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.start{
+    padding: 23px;
+    
+    
+}
+/* CSS for the navigation bar */
+header {
+    background-color: orangered; /* Background color of the navigation bar */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding around the navigation bar */
+}
+
+nav {
+    display: flex; /* Display navigation items horizontally */
+    justify-content: space-around; /* Align items horizontally with space between them */
+    align-items: center; /* Align items vertically */
+    color: black;
+}
+
+
+.logo {
+    font-size: 24px; /* Size of the logo */
+    font-weight: bold; /* Bold font for the logo */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Spacing between navigation items */
+    color: black;
+}
+
+.nav-links li:last-child {
+    margin-right: 0; /* No margin on the last navigation item */
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
